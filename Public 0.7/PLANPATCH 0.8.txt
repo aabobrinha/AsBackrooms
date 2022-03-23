@@ -1,0 +1,11 @@
+EDICOES PRA FAZER:
+Passar menu lateral pra o de cima (talvez colocar algo ainda na vertical)- CHECK
+diminuir logo pra ficar so um pouco maior que o titulo- CHECK
+fazer menu dropdown
+barra de pesquisa - PRECISA DE JAVA ;(
+terminar paginas entidades(se o charbel for eficietne ne)/levels
+	(tirando isso falta diario (pessoas podem submeter entradas), e organizacoes)
+-passar links no header pra divisao do menu- CHECK
+
+criar um article dentro da section pra fazer a caption da imagem
+criar um footer pra deixar uns comentarios
