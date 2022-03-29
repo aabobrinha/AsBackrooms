@@ -1,0 +1,634 @@
+/* arquivo CSS */
+
+
+/* ---------------DIF FONT TEST(NOT WORKING)------------------*/
+@font-face {
+      font-family: 'Bauhaus Bold BT';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Bauhaus Bold BT'), local('BauhausMdBT-Bold'),
+          url(https://fonts.googleapis.com/css2?family=Special+Elite&display=swap),
+          url(https://fonts.googleapis.com/css2?family=Special+Elite&display=swap)
+}
+
+body {
+      background-color: rgb(246, 249, 252);
+      margin: 0;
+}
+
+
+.header {
+  padding:  10px;
+  text-align: center;
+  background: linear-gradient( to bottom left,#000000,#2e2020,#5f4040 );
+  color: rgb(127, 127, 127);
+  font-size: 15px;
+  margin: 0;
+  margin-top: -15px;
+  height: 200px;
+}
+
+.header input{
+      float: right;
+      margin-top: 20px;
+      width: 200px;
+      height: 25px;
+      border: 1px solid black;
+      margin-right: 150px;
+}
+
+
+#title{
+      margin-top: 20px;
+      margin-left: 220px;
+      margin-right: -100px;
+}
+
+#title a{
+      float: left; 
+      font-style: normal;
+      font-variant: normal; 
+      text-align: left;
+      font-weight: 600; 
+      line-height: 20.4px;
+      color: rgb(255, 145, 0); 
+      font-family: 'Special Elite', cursive;
+      font-size: 42px;
+      text-shadow: 4px 4px 4px rgb(0, 0, 0);
+      margin-top: 10px;
+
+}
+
+#page{
+	width: 1200px; 
+	height: auto;
+	margin: 0 auto;
+}
+
+#logo{
+	float: left;
+      width: 650 px ; 
+      height: 650px; 
+      margin-left: -200px;
+}
+
+#logo img{
+      width: 200px ; 
+      height: 180px; 
+      margin-left: 190px; 
+      margin-top: -5px;
+}
+
+/* ------------MENU DIVISION------------------*/
+
+#menudivis {
+      margin: 0;
+      height: 35px;
+      background: linear-gradient(rgb(63, 63, 63), black);
+      border: 1px solid black;
+      
+}
+
+
+/* ---------------MENU------------------*/
+#menu{
+      float: right;
+      margin-top: 89px
+
+}
+#menu a{
+      float: right;
+      font-style: normal;
+      font-variant: normal; 
+      text-align: left;
+      font-weight: 600; 
+      line-height: 20.4px;
+      color: rgb(250, 183, 96); 
+      font-family: 'Special Elite', cursive;
+      font-size: 140%;
+      text-shadow: 4px 4px 4px rgb(0, 0, 0);
+      margin-left: 20px;
+      margin-right: 50px;
+      font-size: 18px;
+      text-decoration: none;
+}
+
+#menu a:hover{
+      text-decoration: underline;
+}
+
+#top{
+     height: 75px;
+     margin: 30px;
+}
+      
+/* ---------------FONT------------------*/
+
+h1{ font-family: Verdana, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+
+h3 { 
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 14px; font-style: normal; 
+      font-variant: normal; 
+      font-weight: 700; 
+      line-height: 15.4px; 
+}
+
+a {
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 14px; font-style: normal; 
+      font-variant: normal; 
+      font-weight: 700; 
+      line-height: 15.4px; 
+}
+
+p {
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 14px; 
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 400; 
+      line-height: 20px;
+} 
+blockquote { 
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 21px; 
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 400; 
+      line-height: 30px;
+} 
+pre { 
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 13px; 
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 400; 
+      line-height: 18.5714px; }
+
+
+/* ---------------TEXTBLOCK1 (paginas)------------------*/
+.textblock1 {
+      margin-top: 40px;
+      float: left;
+      margin-left: -125px;
+      text-align: left;
+      width: 300px;
+      height: 460px;
+      color: #353333;
+      border: 2px solid black;
+      background: linear-gradient(.25turn, rgb(222, 222, 222), white, rgb(222, 222, 222));
+      border-radius: 20px;
+
+}
+
+
+.textblock1 h1{
+      font-size: 150%;
+      font-weight: 300;
+      color: #000000;
+}
+
+.textblock1 h2{
+      font-size: 140%;
+      margin-left: 100px;
+}
+
+.textblock1 ul{
+      font-size: 140%;
+      margin-top: 15px;
+}
+
+.textblock1 a{
+      font-size: 80%;
+      text-decoration: none;
+      font-weight: 300;
+      color: #b30000;
+}
+
+.textblock1 a:hover{
+      text-decoration: underline;
+}
+
+.textblock1 hr {
+      width: 250px;
+      color: #000000;
+}
+
+
+/* ---------------TEXTBLOCK2 (principais niveis)------------------*/
+
+.textblock2 {
+      margin-top: 40px;
+      float: left;
+      margin-left: -160px;
+      text-align: left;
+      height: 225px;
+      width: 300px;
+      border: 2px solid black;
+      background: linear-gradient(.25turn, rgb(222, 222, 222), white, rgb(222, 222, 222));
+      border-radius: 20px;
+      
+}
+
+.textblock2 h1{
+      font-size: 150%;
+      font-weight: 100;
+      font-weight: 300;
+      color: #000000;
+}
+
+.textblock2 ul{
+      font-size: 140%;
+      margin-top: 15px;
+}
+
+.textblock2 a{
+      font-size: 85%;
+      text-decoration: none;
+      font-weight: 300;
+      color: #b30000;
+}
+
+.textblock2 a:hover{
+      text-decoration: underline;
+  }
+
+.textblock2 input{
+      font-size: 120%;
+      margin-left: 25px;
+
+}
+
+.textblock2 hr {
+      width: 130px;
+      color: #000000;
+}
+
+
+/* ---------------TEXTBLOCK3 (origem backrooms)------------------*/
+
+.textblock3 {
+      margin-top: 40px;
+      float: left;
+      margin-left: 20px;
+      text-align: left;
+      height: 800px;
+      width: 650px;
+      border: 2px solid black;
+      background: linear-gradient(.25turn, rgb(222, 222, 222), white, rgb(222, 222, 222));
+      border-radius: 20px;
+}
+
+.textblock3 h1{
+      font-size: 150%;
+}
+
+.textblock3 marquee{
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 14px; font-style: normal; 
+      font-variant: normal; 
+      font-weight: 500; 
+      line-height: 15.4px; 
+      text-decoration: none;
+}
+
+.textblock3 p {
+      font-size: 16px;
+      margin-left: 20px;
+      margin-right: 15px;
+      color: #2d2d2d;
+}
+
+.textblock3 a {
+      font-size: 16px;
+      text-decoration: none;
+      color: #2d2d2d;
+      font-weight: 550; 
+
+}
+
+.textblock3 a:hover{
+      text-decoration: underline;
+}
+
+.textblock3 li{
+      font-size: 125%;
+      margin-top: 15px;
+      margin-left: 20px;
+}
+
+.textblock3 hr {
+      width: 630px;
+      color: #000000;
+}
+
+.textblock3 h4{
+      text-align: center;
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 14px; font-style: normal; 
+      font-variant: normal; 
+      font-weight: 500; 
+      line-height: 15.4px; 
+      text-decoration: none;
+}
+
+
+/* ---------------TEXTBLOCK4 (NCO)------------------*/
+
+.textblock4 {
+      margin-top: 40px;
+      float: left;
+      margin-left: 20px;
+      text-align: left;
+      height: 725px;
+      width: 650px;
+      border: 2px solid black;
+      background: linear-gradient(.25turn, rgb(222, 222, 222), white, rgb(222, 222, 222));
+      border-radius: 20px;
+}
+
+.textblock4 h1{
+      font-size: 150%;
+}
+
+.textblock4 p {
+      font-size: 16px;
+      margin-left: 20px;
+      color: #2d2d2d;
+}
+
+.textblock4 a {
+      margin-top: 15px;
+      margin-left: -10px;
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 18px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 300; 
+      line-height: 15.4px; 
+      text-decoration: none;
+      color: #2d2d2d;
+}
+
+.textblock4 a:hover{
+      text-decoration: underline;
+}
+
+.textblock4 li{
+      margin-top: 15px;
+      margin-left: 20px;
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 18px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 500; 
+      line-height: 15.4px; 
+      text-decoration: none;
+}
+
+.textblock4 un{
+      margin-left: 20px;
+}
+
+.textblock4 hr {
+      width: 630px;
+      color: #000000;
+}
+
+
+/* ---------------TEXTBLOCK5 (LEVELS, ENTIDADES)------------------*/
+
+.textblock5 {
+      margin-top: 40px;
+      float: left;
+      margin-left: 20px;
+      text-align: left;
+      height: 560px;
+      width: 600px;
+      border: 2px solid black;
+      background: linear-gradient(.25turn, rgb(222, 222, 222), white, rgb(222, 222, 222));
+      border-radius: 20px;
+}
+
+.textblock5 h1{
+      font-size: 150%;
+}
+
+.textblock5 p {
+      font-size: 16px;
+      margin-left: 20px;
+      color: #2d2d2d;
+}
+
+.textblock5 a {
+      margin-top: 15px;
+      margin-left: -10px;
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 18px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 300; 
+      line-height: 15.4px; 
+      text-decoration: none;
+      color: #b30000;
+}
+
+.textblock5 a:hover{
+      text-decoration: underline;
+}
+
+.textblock5 li{
+      margin-top: 15px;
+      margin-left: 20px;
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 18px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 500; 
+      line-height: 15.4px; 
+      text-decoration: none;
+}
+
+.textblock5 un{
+      margin-left: 20px;
+}
+
+.textblock5 hr {
+      width: 530px;
+      color: #000000;
+}
+
+/* ---------------MENU DROPDOWN (NOT FINISHED)------------------*/
+.dropdown{
+      position: relative;
+      display: inline;
+}
+
+.dropbtn {
+      background-color: gray;
+      color: whitesmoke;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      margin-top: -15px;
+      margin-left: -190px;
+      font-size: 18px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 18px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 300; 
+      line-height: 15.4px; 
+      text-decoration: none;
+      display: inline;
+}
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #000000;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      right: 0;
+}
+
+.dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/* ---------------LEVEL/ENTITY TEXT------------------*/
+
+.entitytext{
+      margin-top: 40px;
+      float: left;
+      margin-left: 20px;
+      text-align: left;
+      height: 545px;
+      width: 600px;
+}
+
+.entitytext img{
+      float: right;
+      margin-right: -150px;
+      border: 1px solid black;
+}
+
+.entitytext img:hover{
+      opacity: 80%;
+}
+
+
+.entitytext hr{
+      width: 750px;
+}
+
+.entitytext h1{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px; 
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 600;
+      line-height: 15.4px;
+      
+}
+
+.entitytext h2{
+            font-family: Verdana, Geneva, sans-serif; 
+            font-size: 18px; font-style: normal; 
+            font-variant: normal; 
+            font-weight: 500; 
+            line-height: 15.4px; 
+}
+
+.entitytext p {
+      font-size: 15px;
+      margin-right: 20px;
+      color: #2d2d2d;
+      font-family: Verdana, Geneva, sans-serif; 
+}     
+
+.entitytext h4 {
+      font-size: 15px;
+      margin-right: 20px;
+      font-family: Verdana, Geneva, sans-serif;
+      text-decoration: none;
+      text-align: center;
+      color: #b30000;
+}
+
+.entitytext a {
+      font-size: 15px;
+      margin-right: 20px;
+      font-family: Verdana, Geneva, sans-serif;
+      text-decoration: none;
+      text-align: center;
+      color: #b30000;
+}
+
+.entitytext h3{
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 18px; font-style: normal; 
+      font-variant: normal; 
+      font-weight: 500; 
+      line-height: 15.4px; 
+}
+
+.entitytext li{
+      margin-top: 15px;
+      margin-left: 20px;
+      font-size: 15px;
+      font-family: Verdana, Geneva, sans-serif; 
+      font-size: 16px;
+      text-indent: 2px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 300; 
+      text-decoration: none;
+}
+
+.entitytext ul{
+      margin-left: 20px;
+}
+
+
+/* ---------------SCROLL------------------*/
+::-webkit-scrollbar{
+      width: 10px;
+}
+
+::-webkit-scrollbar-track{
+      background: #dfdfdf;
+}
+
+::-webkit-scrollbar-thumb {
+      background: #5f5f5f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+      background: rgb(119, 119, 119);
+}
+
+
+/*-------------AUDIO-------------*/
+audio { display:none;}
+/*-------------------------------*/
+
+/*-------------LINK IN PAGE-------------*/
